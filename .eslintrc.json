@@ -10,21 +10,29 @@
       "jsx": true
     },
     "ecmaVersion": 2018,
-    "sourceType": "module"
+    "sourceType": "module",
+    "requireConfigFile": false
   },
-  "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+  "extends": [
+    "airbnb", 
+    "airbnb/hooks", 
+    "plugin:react/recommended", 
+    "plugin:react-hooks/recommended"
+  ],
   "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
-    "react/react-in-jsx-scope": "off",
-    "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "react/react-in-jsx-scope": "off", 
+    "import/no-unresolved": "off", 
+    "no-shadow": "off", 
+    "no-param-reassign": ["error", { "props": false }],
+    "react/prop-types": "off", 
+    "react/jsx-props-no-spreading": "off", 
+    "import/prefer-default-export": "off"
   },
   "overrides": [
     {
-       // feel free to replace with your preferred file pattern - eg. 'src/**/*Slice.js' or 'redux/**/*Slice.js'
       "files": ["src/**/*Slice.js"],
-      // avoid state param assignment
       "rules": { "no-param-reassign": ["error", { "props": false }] }
     }
   ],
