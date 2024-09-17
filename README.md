@@ -68,3 +68,16 @@ Learn More
 You can learn more in the Create React App documentation.
 
 To learn React, check out the React documentation.
+
+## Author 👩‍💻
+
+Masoma Rezaie.
+
+- Website: [your-website.com](https://github.com/MasomRezaie/Personal-Portfolio-Page/tree/personal-portfolio-page)
+- LinkedIn: [Miss Masoma](https://www.linkedin.com/in/miss-masoma-99b85522a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- Email: [Masoma Rezaie](masom.rezaie135@gmail.com)
+
+## Contributing 🤝
+
+Those who want to contribute in this project with me, can reach out me through:
+email:masom.rezaie135@gmail.com
