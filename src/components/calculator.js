@@ -103,7 +103,22 @@ function Calculator() {
 
   return (
     <div id="calculator">
-      <div id="display" style={{ textAlign: 'right' }}>
+      <div id="display"  style={{ textAlign: 'right', display: 'flex', 
+        flexDirection: 'column', 
+        alignItems: 'right',
+        padding: '0 70px 0 0',
+        marginBottom: '50px', 
+        backgroundColor: ' fff' ,
+        color: 'black', 
+        minHeight: '80px', 
+        justifyContent: 'center',
+        borderRadius: '50px',
+        border: 'solid 2px', 
+        marginBottom: '15px',
+        width: '80%',
+        height: '70px',
+        fontSize: '30px',}}>
+
         <div id="answer">{answer}</div>
         <div id="expression">{expression}</div>
       </div>
@@ -121,7 +136,7 @@ function Calculator() {
         className="light-gray"
         type="button"
       >
-        +/-
+        DEL
       </button>
       <button
         id="percentage"

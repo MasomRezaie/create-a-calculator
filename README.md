@@ -28,7 +28,9 @@ Updated Dependencies: Added mathjs, react-redux, and other necessary dependencie
 https://dycodes.github.io/calculator-reactjs/
 
 
-# Demo
+## Demo 📸
+![Project Demo](./Capture.PNG)
+
 
 
 
