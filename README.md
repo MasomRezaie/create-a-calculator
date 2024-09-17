@@ -17,9 +17,9 @@ Updated Dependencies: Added mathjs, react-redux, and other necessary dependencie
 
 
 **Files Added/Modified**
-*src/components/Calculator.js*: New component for the calculator's UI and logic.
-*src/redux/actions.js:* Redux actions for updating the calculator's state.
-*src/redux/reducer.js:* Redux reducer for managing the state of expressions and answers.
+***src/components/Calculator.js*:** New component for the calculator's UI and logic.
+***src/redux/actions.js:*** Redux actions for updating the calculator's state.
+***src/redux/reducer.js:*** Redux reducer for managing the state of expressions and answers.
 *src/App.js:* Updated to include the new Calculator component.
 *src/App.css:* Added basic styles for the calculator.
 *package.json:* Updated dependencies.
